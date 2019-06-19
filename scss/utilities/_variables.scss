@@ -37,7 +37,7 @@ $info-btn     : $info-color;
 //grid color variables
 
 $gcol-12: rgba($main-green, 0.8);
-$gcol-6 : rgba();
+$gcol-6 : darken($gcol-4,25%);
 $gcol-4 : rgba($default-color,0.8);
 $gcol-3:  rgba($info-color, 0.8);
 $gcol-5:  rgba($succes-color,0.8);
