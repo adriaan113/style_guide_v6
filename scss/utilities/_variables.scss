@@ -38,7 +38,7 @@ $info-btn     : $info-color;
 
 $gcol-12: rgba($main-green, 0.8);
 $gcol-4 : rgba($default-color,0.8);
-//$gcol-6 : darken($gcol-4,25%);
+// $gcol-6 : darken($gcol-4,25%);
 $gcol-3:  rgba($info-color, 0.8);
 $gcol-5:  rgba($succes-color,0.8);
 $gcol-7:  rgba($error-color, 0.8);
@@ -50,7 +50,7 @@ $center-gcol-7: rgba($error-color,0.8);
 
 //border-radius
 
-$br: 10px;
+$br: 5px;
 
 
 //////// FONTS ///////////

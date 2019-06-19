@@ -1,0 +1,6 @@
+.nav__item{
+  @extend %nav__item;
+  a{
+    color: $main-white;
+  }
+}
