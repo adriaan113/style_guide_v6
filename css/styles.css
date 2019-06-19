@@ -356,6 +356,7 @@ template {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 p {
@@ -503,6 +504,10 @@ a {
   }
 }
 
+.btn-- {
+  background-color: #90E0C1;
+}
+
 .blockquote {
   border-left: 5px solid #90E0C1;
   padding-left: 10px;
@@ -520,6 +525,12 @@ a {
 
 .nav__item a {
   color: #fff;
+}
+
+.img--logo {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
 }
 
 /*# sourceMappingURL=styles.css.map */
