@@ -1,9 +1,8 @@
 // **************************************
-// components/_index.scss
+// utilities/_index.scss
 // used to import individual components
 // **************************************
-
-
-@import 'grid';
-@import 'buttons';
-@import 'typography';
+@import 'variables';
+@import 'extends';
+@import 'mixins';
+@import 'functions';
