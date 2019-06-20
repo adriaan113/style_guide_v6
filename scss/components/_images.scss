@@ -1,8 +1,11 @@
-
 .img{
+  display: block;
+  margin: 0 auto;
   &--logo{
-    display: block;
-    margin: 0 auto;
     width: 130px;
+  }
+  &--frame{
+    width: 100%;
+    border: 3px solid yellow;
   }
 }
