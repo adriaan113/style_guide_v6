@@ -367,6 +367,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .grid__row {
   padding: 1em 10px;
   display: flex;
