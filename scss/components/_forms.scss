@@ -1,0 +1,22 @@
+.form{
+
+  &__input{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-style: none;
+    border-bottom: 5px solid $main-green;
+    &::placeholder{
+    padding-left: 10px;
+    font-size: 0.8em
+    }
+    &:focus{
+      outline: none;
+      background-color: $main-grey;
+    }
+  }
+  &__label--hidden{
+    display: none;
+  }
+}

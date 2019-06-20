@@ -1,5 +1,7 @@
 .container{
-  @include webfont;
+  @include webfont;//dit klopt niet
+  width: 90%;
+  margin: 0 auto;
 }
 
 .link{
@@ -8,7 +10,12 @@
 
 .blockquote{
   border-left: 5px solid $main-green;
+  margin: 20px 40px 60px;
   padding-left: 10px;
+  color: $main-grey;
+  font-size: 1.3em;
+  font-style: italic;
+
 }
 
 .headline--primary{

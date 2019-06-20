@@ -1,6 +1,15 @@
+
 .nav__item{
   @extend %nav__item;
+  &:hover{
+    background-color: $main-green;
+  }
   a{
-    color: $main-white;
+    display: block;
+    padding: 10px 0;
+    color: $main-grey;
+    &:hover{
+      color: $main-white;
+    }
   }
 }
