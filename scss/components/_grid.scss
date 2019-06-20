@@ -1,4 +1,4 @@
-µµµ// **********************************************
+// **********************************************
 // _grid.scss
 // styles related to the grid system and
 // main container.
@@ -32,6 +32,7 @@
   // .grid__col
   &__col {
 
+
     // create grid columns dynamically
     // loop through each column size
     @for $i from 1 through 12 {
@@ -40,19 +41,19 @@
       // selector would be .grid__col--1
       &--#{$i} {
 
-      @if $i == 4 {
-        background-color: $gcol-4;
-      } @else if $i == 3{
-        background-color: $gcol-3;
-      } @else if $i == 5{
-        background-color: $gcol-5;
-      } @else if $i == 8{
-        background-color: $gcol-8;
-      } @else if $i == 7{
-        background-color: $gcol-7;
-      } @else if $i == 12{
-        background-color: $gcol-12;
-      }
+      //conditional to cycle through
+    //  @if $i == 4  {
+    //    background-color: $gcol-4;
+    //  } @else if $i == 3{
+    //  } @else if $i == 5{
+    //    background-color: $gcol-5;
+    //  } @else if $i == 8{
+    //    background-color: $gcol-8;
+    //  } @else if $i == 7{
+    //    background-color: $gcol-7;
+    //  } @else if $i == 12{
+    //    background-color: $gcol-12;
+    //   }
 
         // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
@@ -76,6 +77,13 @@
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
+  &[class$=colors]{
+  border-radius: $br;
+  padding: 10px 0;
+  background-color: red;
+
+
+}
   // grid__col + grid__col, targets two sibling columns
   & + & {
 
