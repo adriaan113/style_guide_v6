@@ -1,4 +1,4 @@
-// **********************************************
+µµµ// **********************************************
 // _grid.scss
 // styles related to the grid system and
 // main container.
@@ -39,6 +39,20 @@
       // concatenate CSS selector, ie when $i = 1,
       // selector would be .grid__col--1
       &--#{$i} {
+
+      @if $i == 4 {
+        background-color: $gcol-4;
+      } @else if $i == 3{
+        background-color: $gcol-3;
+      } @else if $i == 5{
+        background-color: $gcol-5;
+      } @else if $i == 8{
+        background-color: $gcol-8;
+      } @else if $i == 7{
+        background-color: $gcol-7;
+      } @else if $i == 12{
+        background-color: $gcol-12;
+      }
 
         // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin

@@ -1,12 +1,18 @@
 
 .img{
-@extend %img;
 
   &--logo{
+    @extend %img;
     width: 130px;
   }
   &--frame{
-    width: 100%;
-    border: 3px solid yellow;
+    @extend %img;
+    width: 90%;
+    outline: 2px solid $main-grey;
+    outline-offset: 10px;
+  }
+  &--avatar{
+    @extend %img;
+    margin-top: 40px;
   }
 }
