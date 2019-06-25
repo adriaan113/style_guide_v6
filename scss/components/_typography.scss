@@ -1,5 +1,5 @@
 .container{
-  @include webfont;//dit klopt niet
+  font-family: $font-family;
   width: 90%;
   margin: 0 auto;
 }

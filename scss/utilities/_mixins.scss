@@ -1,7 +1,7 @@
-@mixin webfont {
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,800&display=swap');
-  font-family: 'Open Sans', sans-serif;
-}
+
+
+
+
 
 @mixin btn {
     text-transform: uppercase;
@@ -13,5 +13,5 @@
     border-radius: $br;
     border-style: none;
     color: $main-white;
-    @content; 
+    @content;
 }

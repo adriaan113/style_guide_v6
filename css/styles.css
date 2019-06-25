@@ -382,12 +382,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .grid__row {
   padding: 1em 10px;
   display: flex;
@@ -547,7 +541,6 @@ a {
 }
 
 .container {
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,800&display=swap");
   font-family: "Open Sans", sans-serif;
   width: 90%;
   margin: 0 auto;
