@@ -1,17 +1,10 @@
 
 
 @mixin btn($bgc) {
-    background-color: $bgc;
-    text-transform: uppercase;
-    font-size: 0.7em;
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    margin: 20px 0;
-    border-radius: $br;
-    border-style: none;
-    color: $main-white;
+  background-color: $bgc;
 }
+
+
 
 @mixin f-size($i){
   font-size: #{$i}em;

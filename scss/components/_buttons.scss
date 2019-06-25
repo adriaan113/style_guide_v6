@@ -1,30 +1,31 @@
+$test: 'default','success','error','warning','info';
+
+ @each $item in $test{
+
+  .btn--#{$item}{
+    @extend %btn;
+    @include btn ($default-btn);
 
 
-//@for $i from 1 through 5{
 
-//  .btn--#{}{
-//    @include btn(#{});
-//  }
-//}
+//   &--default{
+//     @include btn($default-btn);
+//   }
 
+//   &--success{
+//     @include btn($succes-btn);
+//    }
 
+//    &--error{
+//      @include btn($error-btn);
+//    }
 
-.btn--default{
-  @include btn($default-btn);
-}
+//    &--warning{
+//      @include btn($warning-btn);
+//    }
 
-.btn--success{
-  @include btn($succes-btn);
-}
-
-.btn--error{
-  @include btn($error-btn);
-}
-
-.btn--warning{
-  @include btn($warning-btn);
-}
-
-.btn--info{
-  @include btn($info-btn);
+//    &--info{
+//      @include btn($info-btn);
+//    }
+  }
 }
