@@ -1,28 +1,30 @@
-.btn{
 
-&--default{
-@extend %btn;
 
-  background-color: $default-btn;
+//@for $i from 1 through 5{
+
+//  .btn--#{}{
+//    @include btn(#{});
+//  }
+//}
+
+
+
+.btn--default{
+  @include btn($default-btn);
 }
-&--success{
-@extend %btn;
 
-  background-color: $succes-btn;
+.btn--success{
+  @include btn($succes-btn);
 }
-&--error{
-@extend %btn;
 
-  background-color: $error-btn;
+.btn--error{
+  @include btn($error-btn);
 }
-&--warning{
- @extend %btn;
 
-  background-color: $warning-btn;
+.btn--warning{
+  @include btn($warning-btn);
 }
-&--info{
- @extend %btn;
 
-  background-color: $info-btn;
-}
+.btn--info{
+  @include btn($info-btn);
 }

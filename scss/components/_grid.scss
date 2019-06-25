@@ -6,13 +6,7 @@
 // but additional styling may be needed
 // **********************************************
 
-// container volgens mij kan dit gewoon weg hoor
 
-//.container{
-//  display: flex;
-//  flex-direction: column;
-//  justify-content: center;
-//}
 
 // grid base class
 .grid {
@@ -41,19 +35,6 @@
       // selector would be .grid__col--1
       &--#{$i} {
 
-      //conditional to cycle through
-    //  @if $i == 4  {
-    //    background-color: $gcol-4;
-    //  } @else if $i == 3{
-    //  } @else if $i == 5{
-    //    background-color: $gcol-5;
-    //  } @else if $i == 8{
-    //    background-color: $gcol-8;
-    //  } @else if $i == 7{
-    //    background-color: $gcol-7;
-    //  } @else if $i == 12{
-    //    background-color: $gcol-12;
-    //   }
 
         // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
@@ -77,13 +58,7 @@
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
-  &[class$=colors]{
-  border-radius: $br;
-  padding: 10px 0;
-  background-color: red;
 
-
-}
   // grid__col + grid__col, targets two sibling columns
   & + & {
 
@@ -94,4 +69,38 @@
       margin-left: 10px;
     }
   }
+}
+
+
+////colors within the grid
+
+@for $i from 1 through 12{
+
+  .grid__col--#{$i}{
+    &[class*=colors]{
+
+    //conditional to cycle through
+   @if $i == 4  {
+      background-color: $gcol-4;
+    } @else if $i == 3{
+      background-color: $gcol-3;
+    } @else if $i == 5{
+      background-color: $gcol-5;
+    } @else if $i == 8{
+      background-color: $gcol-8;
+    } @else if $i == 7{
+      background-color: $gcol-7;
+    } @else if $i == 12{
+      background-color: $gcol-12;
+    } @else if $i == 6{
+      background-color: $gcol-6;
+      }
+
+
+
+    border-radius: $br;
+    padding: 10px 0;
+    background-color: #{$i};
+  }
+ }
 }

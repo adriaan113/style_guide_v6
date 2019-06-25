@@ -34,16 +34,19 @@ $error-btn    : $error-color;
 $warning-btn  : $warning-color;
 $info-btn     : $info-color;
 
+
+
 //grid color variables
 
 $gcol-12: rgba($main-green, 0.8);
 $gcol-4 : rgba($default-color,0.8);
-// $gcol-6 : darken($gcol-4,25%);
+$gcol-6 : darken($gcol-4,40%);
 $gcol-3:  rgba($info-color, 0.8);
 $gcol-5:  rgba($succes-color,0.8);
 $gcol-7:  rgba($error-color, 0.8);
 $gcol-8:  rgba($warning-color,0.8);
 $center-gcol-7: rgba($error-color,0.8);
+
 
 
 //////// BORDERS ///////////
