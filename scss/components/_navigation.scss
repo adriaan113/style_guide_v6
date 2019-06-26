@@ -6,14 +6,14 @@
 .nav__item{
   @extend %nav__item;
   &:hover{
-    background-color: $main-green;
+    @include bgc($main-green);
   }
   a{
     display: block;
     padding: 10px 0;
-    color: $main-grey;
+    @include c ($main-grey);
     &:hover{
-      color: $main-white;
+      @include c($main-white);
     }
   }
 }

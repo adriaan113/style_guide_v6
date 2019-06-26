@@ -13,18 +13,18 @@
   border-left: 5px solid $main-green;
   margin: 20px 40px 60px;
   padding-left: 10px;
-  color: $main-grey;
+  @include c($main-grey);
   font-style: italic;
 
 }
 
 .headline--primary{
   @include f-size(1.8);
-  color: $main-green;
+  @include c ($main-green);
 }
 
 .headline--secondary{
   @include f-size(1);
-  color: $main-grey;
+  @include c($main-grey);
   font-weight: lighter;
 }
