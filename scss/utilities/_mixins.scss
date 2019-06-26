@@ -9,3 +9,14 @@
 @mixin f-size($i){
   font-size: #{$i}em;
 }
+
+
+/////////////////////////////////////
+//          media queries          //
+////////////////////////////////////
+
+@mixin mq($i){
+  @media (min-width:$i){
+    background-color: pink;
+  };
+}

@@ -1,3 +1,7 @@
+.nav{
+  @include mq(768px);
+}
+
 
 .nav__item{
   @extend %nav__item;
