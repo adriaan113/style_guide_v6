@@ -1,31 +1,8 @@
-$test: 'default','success','error','warning','info';
 
- @each $item in $test{
+ @each $color in $button-colors{
 
-  .btn--#{$item}{
+  .btn--#{$color}{
     @extend %btn;
-    @include btn ($default-btn);
-
-
-
-//   &--default{
-//     @include btn($default-btn);
-//   }
-
-//   &--success{
-//     @include btn($succes-btn);
-//    }
-
-//    &--error{
-//      @include btn($error-btn);
-//    }
-
-//    &--warning{
-//      @include btn($warning-btn);
-//    }
-
-//    &--info{
-//      @include btn($info-btn);
-//    }
+    @include btn ($color);
   }
 }

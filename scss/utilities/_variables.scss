@@ -26,13 +26,8 @@ $link         : $default-color;
 $text         : $main-grey;
 $submit       : $main-white;
 
-//button color variables
 
-$default-btn  : $default-color;
-$succes-btn   : $succes-color;
-$error-btn    : $error-color;
-$warning-btn  : $warning-color;
-$info-btn     : $info-color;
+$button-colors: 'default','success','error','warning','info';
 
 
 

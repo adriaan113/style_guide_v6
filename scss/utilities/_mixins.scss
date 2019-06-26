@@ -1,14 +1,15 @@
 
 
 @mixin btn($bgc) {
-  background-color: $bgc;
+  @extend %#{$bgc}-btn;
 }
 
 
 
-@mixin f-size($i){
-  font-size: #{$i}em;
+@mixin f-size($fz){
+  font-size: #{$fz}em;
 }
+
 
 
 /////////////////////////////////////
