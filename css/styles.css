@@ -623,14 +623,57 @@ a {
   background-color: 12;
 }
 
-.grid__col--12 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
 @media (min-width: 768px) {
   .grid__col--12 {
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn--default {
+    margin: 20px 5% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn--success {
+    margin: 20px 5% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn--error {
+    margin: 20px 5% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn--warning {
+    margin: 20px 5% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn--info {
+    margin: 20px 5% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 

@@ -47,7 +47,7 @@
 
         @include mq () {
 
-          
+
 
 
           // make column width a percentage of the column number / total columns
@@ -107,6 +107,7 @@
 }
 
 .grid__col--12{
-  @include mq();
-  @include flex($justify:flex-start);
+    @include mq(){
+    @include flex($justify: flex-start);
+  }
 }
