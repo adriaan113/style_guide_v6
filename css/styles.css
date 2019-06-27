@@ -547,80 +547,68 @@ a {
 .grid__col--1[class*=colors] {
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 1;
 }
 
 .grid__col--2[class*=colors] {
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 2;
 }
 
 .grid__col--3[class*=colors] {
   background-color: rgba(139, 122, 189, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 3;
 }
 
 .grid__col--4[class*=colors] {
   background-color: rgba(139, 220, 251, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 4;
 }
 
 .grid__col--5[class*=colors] {
   background-color: rgba(139, 203, 133, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 5;
 }
 
 .grid__col--6[class*=colors] {
   background-color: rgba(6, 132, 180, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 6;
 }
 
 .grid__col--7[class*=colors] {
   background-color: rgba(203, 116, 121, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 7;
 }
 
 .grid__col--8[class*=colors] {
   background-color: rgba(225, 119, 88, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 8;
 }
 
 .grid__col--9[class*=colors] {
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 9;
 }
 
 .grid__col--10[class*=colors] {
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 10;
 }
 
 .grid__col--11[class*=colors] {
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 11;
 }
 
 .grid__col--12[class*=colors] {
   background-color: rgba(144, 224, 193, 0.8);
   border-radius: 5px;
   padding: 10px 0;
-  background-color: 12;
 }
 
 @media (min-width: 768px) {
@@ -630,6 +618,10 @@ a {
     flex-direction: row;
     justify-content: flex-start;
   }
+}
+
+.centered {
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {

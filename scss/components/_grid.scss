@@ -100,7 +100,7 @@
 
     border-radius: $br;
     padding: 10px 0;
-    background-color: #{$i};
+  //  background-color: #{$i};
   }
  }
 }
@@ -109,4 +109,8 @@
     @include mq(){
     @include flex($justify: flex-start);
   }
+}
+
+.centered{
+  margin: 0 auto;
 }
