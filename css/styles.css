@@ -619,6 +619,35 @@ a {
   background-color: 12;
 }
 
+@media (min-width: 769px) {
+  .grid__col--12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+  }
+}
+
+.btn--default {
+  margin: 20px 10px;
+}
+
+.btn--success {
+  margin: 20px 10px;
+}
+
+.btn--error {
+  margin: 20px 10px;
+}
+
+.btn--warning {
+  margin: 20px 10px;
+}
+
+.btn--info {
+  margin: 20px 10px;
+}
+
 .container {
   font-family: "Open Sans", sans-serif;
   width: 90%;
@@ -647,7 +676,10 @@ a {
 
 @media (min-width: 768px) {
   .nav {
-    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 50px 0 150px;
   }
 }
 

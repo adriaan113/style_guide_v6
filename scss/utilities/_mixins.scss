@@ -27,8 +27,12 @@
 //          media queries          //
 ////////////////////////////////////
 
-@mixin mq($i){
-  @media (min-width:$i){
-    background-color: pink;
+@mixin mq($mw, $justify: space-between, $margin: 0 ){
+  @media (min-width:$mw){
+    display: flex;
+    flex-direction: row;
+    justify-content: $justify;
+    margin: $margin;
+
   };
 }

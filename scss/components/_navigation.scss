@@ -1,5 +1,6 @@
 .nav{
-  @include mq(768px);
+  @include mq(768px, space-between,0 50px 0 150px);
+
 }
 
 
