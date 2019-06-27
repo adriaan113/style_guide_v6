@@ -21,10 +21,14 @@
 .headline--primary{
   @include f-size(1.8);
   @include c ($main-green);
+  padding-left: 20px;
 }
 
 .headline--secondary{
   @include f-size(1);
   @include c($main-grey);
   font-weight: lighter;
+  display: block;
+  margin: 20px 0;
+
 }

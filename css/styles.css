@@ -21,7 +21,8 @@
   display: block;
   width: 100%;
   padding: 10px 0;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-right: 10px;
   border-radius: 5px;
   border-style: none;
   color: #fff;
@@ -628,24 +629,8 @@ a {
   }
 }
 
-.btn--default {
-  margin: 20px 10px;
-}
-
-.btn--success {
-  margin: 20px 10px;
-}
-
-.btn--error {
-  margin: 20px 10px;
-}
-
-.btn--warning {
-  margin: 20px 10px;
-}
-
 .btn--info {
-  margin: 20px 10px;
+  margin-right: 0;
 }
 
 .container {
@@ -666,12 +651,15 @@ a {
 .headline--primary {
   font-size: 1.8em;
   color: #90E0C1;
+  padding-left: 20px;
 }
 
 .headline--secondary {
   font-size: 1em;
   color: #BDBDBD;
   font-weight: lighter;
+  display: block;
+  margin: 20px 0;
 }
 
 @media (min-width: 768px) {
@@ -680,6 +668,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 50px 0 150px;
+    max-width: 448px;
   }
 }
 
@@ -689,6 +678,7 @@ a {
 .nav__item a {
   display: block;
   padding: 10px 0;
+  margin: 0 10px;
   color: #BDBDBD;
 }
 .nav__item a:hover {

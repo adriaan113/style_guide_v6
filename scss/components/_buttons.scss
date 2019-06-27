@@ -4,6 +4,10 @@
   .btn--#{$color}{
     @extend %btn;
     @include btn ($color);
-    margin: 20px 10px;
+    }
   }
+
+
+.btn--info{
+  margin-right: 0;
 }

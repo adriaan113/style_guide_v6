@@ -27,12 +27,12 @@
 //          media queries          //
 ////////////////////////////////////
 
-@mixin mq($mw, $justify: space-between, $margin: 0 ){
-  @media (min-width:$mw){
+@mixin mq($min-w, $justify: space-between, $margin: 0){
+  @media (min-width:$min-w){
     display: flex;
     flex-direction: row;
     justify-content: $justify;
     margin: $margin;
-
+    @content;
   };
 }
