@@ -24,15 +24,22 @@
 
 
 /////////////////////////////////////
-//          media queries          //
+//          media query           //
 ////////////////////////////////////
 
-@mixin mq($min-w, $justify: space-between, $margin: 0){
+@mixin mq($min-w: 768px, $margin: 0){
   @media (min-width:$min-w){
-    display: flex;
-    flex-direction: row;
-    justify-content: $justify;
     margin: $margin;
     @content;
   };
+}
+
+/////////////////////////////////////
+//         flex-box               //
+////////////////////////////////////
+
+@mixin flex($fd: row, $justify: space-between){
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $justify;
 }

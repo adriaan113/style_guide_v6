@@ -104,6 +104,5 @@
 }
 
 .grid__col--12{
-  @include mq(769px, space-around);
-  
+  @include mq(769px, flex-start);
 }
