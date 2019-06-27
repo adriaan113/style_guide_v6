@@ -18,8 +18,9 @@
     flex-direction: column;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
-      flex-direction: row;
+
+    @include mq () {
+      @include flex();
     }
   }
 
@@ -43,10 +44,11 @@
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @media (min-width: 768px) {
 
-          // base stlyes applied to all grid columns
-          margin-top: 0;
+        @include mq () {
+
+          
+
 
           // make column width a percentage of the column number / total columns
           flex-basis: #{$i / 12 * 100 + "%"} ;
@@ -63,10 +65,11 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
 
-      // add grid gutter
-      margin-left: 10px;
+    @include mq ($margin: 0 0 0 10px) {
+
+
+
     }
   }
 }
@@ -104,5 +107,6 @@
 }
 
 .grid__col--12{
-  @include mq(769px, flex-start);
+  @include mq();
+  @include flex($justify:flex-start);
 }

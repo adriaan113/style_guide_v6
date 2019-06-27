@@ -1,7 +1,9 @@
 .nav{
-  @include mq($min-w:768px, $justify:space-between,$margin:0 50px 0 150px){
+  @include mq($margin:0 50px 0 150px){
   max-width: 448px;
+  @include flex($justify:space-between);
  }
+
 }
 
 

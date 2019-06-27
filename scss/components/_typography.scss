@@ -33,8 +33,9 @@
 }
 
 .card{
-  @include mq($min-w:768px, $margin: 0 50px 0 0, $fd: column){
+  @include mq($margin: 0 50px 0 0){
     max-width: 750px;
   }
+  @include flex($fd: column);
 
 }

@@ -13,11 +13,11 @@
     max-width: 450px;
     outline: 2px solid $main-grey;
     outline-offset: 10px;
-    @include mq($min-w: 768px, $margin: 15px auto);
+    @include mq($margin: 15px auto);
   }
   &--avatar{
     @extend %img;
     margin: 40px auto;
-    @include mq($min-w: 768px, $margin: 10px auto);
+    @include mq($margin: 10px auto);
   }
 }

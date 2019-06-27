@@ -2,7 +2,7 @@
   @include mq(){
     max-width: 290px;
 }
-  @include($fd:column);
+  @include flex($fd:column);
 
   &__input{
     display: block;
