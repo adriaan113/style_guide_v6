@@ -32,7 +32,7 @@
 //          media query           //
 ////////////////////////////////////
 
-@mixin mq($min-w: 768px, $margin: 0){
+@mixin mq($min-w: $break1, $margin: 0){
   @media (min-width:$min-w){
     margin: $margin;
     @content;

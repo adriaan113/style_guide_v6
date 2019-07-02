@@ -59,3 +59,8 @@ $font-family: 'Open Sans', sans-serif;
 @if variable-exists(font-url--google){
   @import url($font-url--google);
 }
+
+
+//////// BREAKPOINTS ///////////
+
+$break1: 768px;
